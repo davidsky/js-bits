@@ -1,0 +1,25 @@
+{
+  "name": "js-bits",
+  "version": "0.0.1",
+  "description": "tiny library for manipulating bits in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidSky/js-bits.git"
+  },
+  "keywords": [
+    "bit",
+    "bit",
+    "set",
+    "byte"
+  ],
+  "author": "David Sky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidSky/js-bits/issues"
+  },
+  "homepage": "https://github.com/davidSky/js-bits"
+}
