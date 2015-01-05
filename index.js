@@ -40,7 +40,7 @@
 
 	function toArray(mask, size)
 	{
-		var arr= new Uint8Array(size), i= 0
+		var arr= new Array(size), i= 0
 		for(; mask; arr[i]= (mask & 1)!==0, mask>>>= 1, ++i);
 		return arr
 	}
