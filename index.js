@@ -41,7 +41,7 @@
 	function toArray(mask, size)
 	{
 		var arr= new Array(size), i= 0
-		for(; mask; arr[i]= (mask & 1)!==0, mask>>>= 1, ++i);
+		for(; mask; arr[i]= 0===(mask & 1)? 0: 1, mask>>>= 1, ++i);
 		return arr
 	}
 	exports.toArray= toArray
